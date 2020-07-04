@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 import withGetScreen from "react-getscreen";
 import Navbar from "../components/Navbar";
 
 
-class Home extends React.Component {
+class FAQs extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -13,4 +13,4 @@ class Home extends React.Component {
     }
 }
 
-export default Home;
+export default FAQs;
