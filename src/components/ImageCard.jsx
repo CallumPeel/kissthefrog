@@ -4,10 +4,7 @@ import { findAllByDisplayValue } from '@testing-library/react';
 const cardStyle = {
     width:"225px", 
     height:"330px",
-    marginTop: "2vh",
-    marginBottom: "4vh",
-    marginLeft: "2vw",
-    marginRight: "2vw"
+    marginTop: "10px"
 }
 
 const imageStyle = {
@@ -15,18 +12,14 @@ const imageStyle = {
     height: "100%", 
     objectFit:"cover",
     borderRadius: "20px",
-    //boxShadow: "0px 0px 5px 5px rgba(174, 175, 176, 1)",
-    borderColor: "rgba(174, 175, 176, 1)",
-    borderStyle: "dashed",
+    boxShadow: "10px 10px black"
 }
 
 export function ImageCard(props) {
     return (
-    <a href="https://www.etsy.com/au/shop/kissthefrogdc?ref=l2-about-shopname">
-        <div style={cardStyle}>
-         <img style={imageStyle} src={props.fileName} alt={props.fileNameAltText}></img> 
-        </div>
-        </a>
+    <div style={cardStyle}>
+       <img style={imageStyle} src={props.fileName} alt={props.fileNameAltText}></img> 
+    </div>
     );
 }
 
