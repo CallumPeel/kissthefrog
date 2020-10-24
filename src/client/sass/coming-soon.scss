@@ -1,15 +1,5 @@
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-  body {
-    font-family: 'Satisfy', serif;
-  }
-
-  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-  body {
-    font-family: 'Amatic SC', cursive;
-  }
-
 .polygon-container {
   width: 100vw;
   height: 20vh;
@@ -32,7 +22,7 @@
 
 .clip-polygon {
     //clip-path: polygon(0 0, 0 55%, 100% 85%, 100% 0);
-    background: linear-gradient(360deg, rgba(21,130,54,1) 20%, #9dea9a 120%);
+    background: linear-gradient(rgba(21,130,54,1) 0%, #9dea9a 95%);
     z-index: -100;
     width: 100%;
     height: 100%;

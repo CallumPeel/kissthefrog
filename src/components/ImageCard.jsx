@@ -4,7 +4,8 @@ import { findAllByDisplayValue } from '@testing-library/react';
 const cardStyle = {
     width:"225px", 
     height:"330px",
-    marginTop: "10px"
+    marginTop: "10px",
+    marginBottom: "20px"
 }
 
 const imageStyle = {
@@ -12,7 +13,9 @@ const imageStyle = {
     height: "100%", 
     objectFit:"cover",
     borderRadius: "20px",
-    boxShadow: "10px 10px black"
+    //boxShadow: "0px 0px 5px 5px rgba(174, 175, 176, 1)",
+    borderColor: "rgba(174, 175, 176, 1)",
+    borderStyle: "dashed",
 }
 
 export function ImageCard(props) {
