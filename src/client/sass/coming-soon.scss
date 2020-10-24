@@ -31,8 +31,8 @@
 }
 
 .clip-polygon {
-    clip-path: polygon(0 0, 0 55%, 100% 85%, 100% 0);
-    background: linear-gradient(159deg, rgba(21,130,54,1) 41%, rgba(162,232,160,1) 100%);
+    //clip-path: polygon(0 0, 0 55%, 100% 85%, 100% 0);
+    background: linear-gradient(360deg, rgba(21,130,54,1) 20%, #9dea9a 120%);
     z-index: -100;
     width: 100%;
     height: 100%;
