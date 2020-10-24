@@ -20,9 +20,11 @@ const imageStyle = {
 
 export function ImageCard(props) {
     return (
-    <div style={cardStyle}>
-       <img style={imageStyle} src={props.fileName} alt={props.fileNameAltText}></img> 
-    </div>
+    <a href="https://www.etsy.com/au/shop/kissthefrogdc?ref=l2-about-shopname">
+        <div style={cardStyle}>
+         <img style={imageStyle} src={props.fileName} alt={props.fileNameAltText}></img> 
+        </div>
+        </a>
     );
 }
 
