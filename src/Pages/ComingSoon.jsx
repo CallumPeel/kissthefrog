@@ -8,6 +8,7 @@ class ComingSoon extends React.Component {
         super(props);
      }
     render(){
+        document.body.style = "background-color:rgba(252, 220, 239,1)";
         if(this.props.isMobile())
         {
             return(
@@ -19,6 +20,18 @@ class ComingSoon extends React.Component {
                         <div className="main-heading-font-style main-heading-mobile main-heading-mobile-h1">Kiss the Frog</div>
                         <div className="main-heading-font-style main-heading-mobile main-heading-mobile-h2">Dolls Clothing</div>
                         <div className="description-tagline-mobile description-tagline">Clothing for your 18 inch dolls</div>
+                    <div style={{
+                        display: "flex", 
+                        flexDirection: "row", 
+                        flexWrap: "wrap",
+                        justifyContent: "space-evenly",
+                        marginTop: "50px",
+                        marginBottom: "30px"
+                        }}>
+                        <ImageCard fileName='images/Doll1.jpg' fileNameAltText='doll'/>
+                        <ImageCard fileName='images/Doll2.jpg' fileNameAltText='doll2'/>
+                        <ImageCard fileName='images/Doll3.jpg' fileNameAltText='doll3'/>
+                    </div>
                     </div>      
                 </div>
             );
@@ -36,9 +49,10 @@ class ComingSoon extends React.Component {
                 <div style={{
                     display: "flex", 
                     flexDirection: "row", 
-                    flexWrap: "nowrap",
+                    flexWrap: "wrap",
                     justifyContent: "space-evenly",
-                    marginTop: "50px"
+                    marginTop: "50px",
+                    marginBottom: "30px"
                     }}>
                     <ImageCard fileName='images/Doll1.jpg' fileNameAltText='doll'/>
                     <ImageCard fileName='images/Doll2.jpg' fileNameAltText='doll2'/>

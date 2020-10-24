@@ -1,9 +1,10 @@
 import React from 'react';
+import GlobalFonts from '../fonts/fonts';
 import logo from './logo.svg';
 import './App.css';
 import Home from "../Pages/Home";
-import About from "../Pages/About"
-import FAQs from"../Pages/FAQs"
+import About from "../Pages/About";
+import FAQs from"../Pages/FAQs";
 import Contactme from "../Pages/Home";
 import ComingSoon from "../Pages/ComingSoon";
 import {
@@ -39,6 +40,7 @@ function Website() {
  function App() {
   return (
     <div>
+      <GlobalFonts />
       <Router>
          <Switch>
            <Route exact path="/">
