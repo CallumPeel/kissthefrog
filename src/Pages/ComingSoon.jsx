@@ -17,9 +17,9 @@ class ComingSoon extends React.Component {
                         <div className="clip-polygon"></div>
                     </div>
                     <div class="main-heading-container">
-                        <div className="main-heading-font-style main-heading-mobile main-heading-mobile-h1">Kiss the Frog</div>
-                        <div className="main-heading-font-style main-heading-mobile main-heading-mobile-h2">Dolls Clothing</div>
-                        <div className="description-tagline-mobile description-tagline">Clothing for your 18 inch dolls</div>
+                    <a href="https://www.etsy.com/au/shop/kissthefrogdc?ref=l2-about-shopname" className="main-heading-font-style main-heading-mobile main-heading-mobile-h1">Kiss the Frog</a>
+                    <a href="https://www.etsy.com/au/shop/kissthefrogdc?ref=l2-about-shopname" className="main-heading-font-style main-heading-mobile main-heading-mobile-h2">Dolls Clothing</a>
+                    <a href="https://www.etsy.com/au/shop/kissthefrogdc?ref=l2-about-shopname" className="description-tagline-mobile description-tagline">Clothing for your 18 inch dolls</a>
                     <div style={{
                         display: "flex", 
                         flexDirection: "row", 
@@ -43,9 +43,9 @@ class ComingSoon extends React.Component {
                 <div className="clip-polygon"></div>
             </div>
             <div class="main-heading-container">
-                <div className="main-heading-font-style main-heading main-heading-h1">Kiss the Frog</div>
-                <div className="main-heading-font-style main-heading main-heading-h2">Dolls Clothing</div>
-                <div className="description-tagline">Clothing for your 18 inch dolls</div>
+                <a href="https://www.etsy.com/au/shop/kissthefrogdc?ref=l2-about-shopname" className="main-heading-font-style main-heading main-heading-h1">Kiss the Frog</a>
+                <a href="https://www.etsy.com/au/shop/kissthefrogdc?ref=l2-about-shopname" className="main-heading-font-style main-heading main-heading-h2">Dolls Clothing</a>
+                <a href="https://www.etsy.com/au/shop/kissthefrogdc?ref=l2-about-shopname" className="description-tagline">Clothing for your 18 inch dolls</a>
                 <div style={{
                     display: "flex", 
                     flexDirection: "row", 

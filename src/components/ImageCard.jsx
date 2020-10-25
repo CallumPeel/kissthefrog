@@ -4,8 +4,10 @@ import { findAllByDisplayValue } from '@testing-library/react';
 const cardStyle = {
     width:"225px", 
     height:"330px",
-    marginTop: "10px",
-    marginBottom: "20px"
+    marginTop: "2vh",
+    marginBottom: "4vh",
+    marginLeft: "2vw",
+    marginRight: "2vw"
 }
 
 const imageStyle = {
